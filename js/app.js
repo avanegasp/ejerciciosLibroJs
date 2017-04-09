@@ -8,10 +8,10 @@ cuadrado(10)
 
 
 var cubo = function(n){
-	
+
 	var pregunta =  (prompt("el cubo de" + n + "es" + resultado));
 	var resultado = n * n * n
-	
+
 	console.log(pregunta)
 }
 
@@ -22,7 +22,7 @@ function power (base, exp){
 
 	var resultado = Math.pow(base, exp);
 		return console.log(resultado)
-	
+
 }
 
 power(4)
@@ -50,7 +50,7 @@ var totalPago = 0;
 
 do{
 	pago = Number(prompt("de cuanto es tu pago?: "));
-	totalPago = totalPago + pago;	
+	totalPago = totalPago + pago;
 } while(pago);
 
 console.log(prompt("solo me haz pagado esto " + totalPago));
@@ -148,37 +148,144 @@ function closure(nombre){
 }
 
 var closure2 = closure("oliva");
-	
+
 	console.log (closure2(" es mi perrita"))
 
+
+
+
+
+			var casa= {
+				dormitorio: "si",
+				llaves: "si",
+				carro: "si",
+
+				delete casa.llaves
+			}
+
+
+			console.log(casa)
+
+
+
+		var num = 5;
+		if (num < 20 && num > 10 ){
+			console.log("el numero esta entre 10 y 20")
+		} else {
+			console.log ("el numero no esta entre 10 y 20")
+		}
+
+
+
+	var color = "rojo";
+
+	if(color === "verde" || color === "negro"){
+		console.log("excelente elección el color esta entre verde y rojo")
+	} else {
+		console.log("tu color no es verde o negro")
+	}
+
+
+
+		console.log("hola mundo")
+		console.log("hola mundo")
+		console.log("hola mundo")
+		console.log("hola mundo")
+		console.log("hola mundo")
+
+
+
+
+		var i = 0;
+		while (i < 850){
+			var i =+ 1
+			console.log( i + (i + 1) + " hola mundo")
+		}
+
+
+
+	 var num = 10;
+
+	 for (var i=10; i <= 20; i = i + 2){
+		 console.log(i);
+	 }
+
+	 var i = 5;
+
+	 while ( i <= 20) {
+	 	console.log(i)
+		i =+ 5
+	 }
+
+	 var i = 5;       // el inicializador
+	 while (i <= 20) { // la condición
+  	console.log(i);
+  	i	+= 5;      // el incrementador
+}
+
+
+
+	 var i = 100;
+
+	 while( i > 0){
+		 console.log(i)
+		 i -= 1;
+	 }
+
+
+
+
+	 var i = 0;
+
+	 while(i <= 100){
+		 console.log(i)
+		 i +=5
+	 }
+
+
+	 var i = 0;
+
+	 for (var i =0; i <= 100; i += 5){
+		 console.log(i)
+	 }
+
+
+	 var array = ["hola", "nico", true, false, 5, 33]
+
+	 for (var i = 0; i < array.length; i++){
+		 console.log(array[i])
+	 }
+
+
+	 var array = ["hola", "nico", true, false, 5, 33]
+	 array[5]= "juan"
+
+	 console.log(array)
+
+
+
+	 var nuevos = ["oliva"]
+	 			nuevos.push("angie", "carmen", true)
+
+				console.log(nuevos)
+
+
+
+		var nombres =["lore", "oliva", "ligia", "rafa"]
+
+			nombres.splice(0, 1)
+
+			console.log(nombres)
 
 */
 
 
-
-var casa= {
-	dormitorio: "si",
-	llaves: "si",
-	carro: "si",
-
-	delete casa.llaves
-}
+		var arr = ["hola", "mundo", 3, "veces"]
 
 
-console.log(casa)
+		var i = 0;
 
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+		while( i <= arr.length){
+			console.log(arr)
+			i++
+		}
