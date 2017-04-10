@@ -277,7 +277,6 @@ var closure2 = closure("oliva");
 
 			console.log(nombres)
 
-*/
 
 
 		var arr = ["hola", "mundo", 3, "veces"]
@@ -289,3 +288,41 @@ var closure2 = closure("oliva");
 			console.log(arr)
 			i++
 		}
+
+
+
+
+		let base = 5;
+		let altura = 7;
+
+		function triangulo (base, altura){
+			return base * altura
+		}
+		let triangulo = (base, altura) => base * altura / 2
+
+		console.log(`el area de un triángulo de base ${base} y altura ${altura} es: ${triangulo(base, altura)}`)
+
+
+		let ladoA = 7;
+		let ladoB = 9;
+
+		let rectanguleArea = (ladoA, ladoB) => ladoA * ladoB
+
+		console.log(`el areá de un rectangulo es lado ${ladoA} por lado ${ladoB} cuyo resultado es: ${rectanguleArea(ladoA, ladoB)}`)
+
+
+		let pi = 3.1416;
+		let radio = 4;
+
+		let circleArea = (pi, radio) => pi * (radio * radio)
+
+		console.log(`el área de un circulo es PI ${pi} por RADIO ${radio}al cuadrado, el resultado es ${circleArea(pi, radio)}`)
+
+
+		function circleArea (pi, radio){
+			return pi * (radio * radio)
+		}
+
+		console.log("el area de un circulo es: " + circleArea(3.14, 4))
+
+		*/
